@@ -22,11 +22,11 @@ const Doctor = (props) => {
         <div >
             <br />
             <h1 className="mt-5">Doctor Details</h1>
-            <h1 className="mt-5">{city}</h1>
+            <h1 className="mt-5">City where visitor right now : {city}</h1>
             <h1 className="mt-5">Device IP Address : {IPv4}</h1>
-            <h1 className="mt-5">{postal}</h1>
-            <h1 className="mt-5">{state}</h1>
-            <h1 className="mt-5">{country_code}</h1>
+            <h1 className="mt-5">Area Postal Code : {postal}</h1>
+            <h1 className="mt-5">Visotor Current State : {state}</h1>
+            <h1 className="mt-5">Country Code : {country_code}</h1>
             <div className="res">
                 {/* 
                 {
